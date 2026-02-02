@@ -18,7 +18,7 @@ const Profile = () => {
                     height: '100px',
                     borderRadius: '50%',
                     backgroundColor: '#333',
-                    backgroundImage: 'url("https://randomuser.me/api/portraits/men/32.jpg")',
+                    backgroundImage: 'url("https://github.com/prathameshsabale18.png")',
                     backgroundSize: 'cover',
                     border: '2px solid var(--accent-blue)',
                     marginBottom: '16px'

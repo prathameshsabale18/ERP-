@@ -63,7 +63,7 @@ const Sidebar = ({ isOpen, onClose }) => {
           <div style={{ position: 'absolute', bottom: '20px', left: '20px', display: 'flex', flexDirection: 'column', gap: '8px' }}>
             <div style={{
               width: '60px', height: '60px', borderRadius: '50%', backgroundColor: '#ddd',
-              backgroundImage: 'url("https://randomuser.me/api/portraits/men/32.jpg")',
+              backgroundImage: 'url("https://github.com/prathameshsabale18.png")',
               backgroundSize: 'cover',
               border: '2px solid #fff'
             }} />
