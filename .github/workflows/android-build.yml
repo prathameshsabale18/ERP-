@@ -40,6 +40,12 @@ jobs:
       - name: Sync Capacitor
         run: npx cap sync android
 
+      - name: Fix content permissions
+        run: |
+          cd android
+          sed -i 's/\r$//' gradlew
+          chmod +x gradlew
+
       - name: Build Android APK
         uses: gradle/gradle-build-action@v3
         with:
